@@ -87,7 +87,10 @@ nav .active a{
 	margin-top: 70px;
 	text-align: center;
 	color: #fff;
+}
 
+#works .jumbotron {
+	margin-bottom: 0;
 }
 
 #works h3 {
@@ -136,9 +139,9 @@ nav .active a{
 	margin-bottom: 0;
 }
 
-/*--------------Shopping List------------*/
-#shopping-list {
-	background-color: #1ed292;
+/*--------------Lokafy------------*/
+#lokafy {
+	background-color: #337ab7;
 }
 
 /*--------------Let's Talk---------------*/
@@ -167,49 +170,15 @@ footer {
 	height: 180px;
 	text-align: center;
 }
-
-.social {
-	width: 32px;
-	height: 32px;
-	margin: 40px 25px;
-	display: inline-block;
-	overflow: hidden;
-	background-size: cover;
+footer a {
+	color: white;
+	margin: 40px 23px;
 }
 
-#github {
-	background-image: url("../img/assets/Git.png");
+footer a:hover {
+	text-decoration: none;
+	color: #337ab7;
 }
-
-#linkedin {
-	background-image: url("../img/assets/LinkedIn.png");
-}
-
-#facebook {
-	background-image: url("../img/assets/Facebook.png");
-}
-
-#instagram {
-	background-image: url("../img/assets/Instagram.png");
-}
-
-#github:hover {
-	background-image: url("../img/assets/Git_hover.png");
-}
-
-#linkedin:hover {
-	background-image: url("../img/assets/LinkedIn_hover.png");
-}
-
-#facebook:hover {
-	background-image: url("../img/assets/Facebook_hover.png");
-}
-
-#instagram:hover {
-	background-image: url("../img/assets/Instagram_hover.png");
-}
-
-
 
 footer p {
 	color: #9b9b9b;
